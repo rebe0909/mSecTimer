@@ -23,7 +23,7 @@ bool mSecTimer::hasElapsedTimer (void)
 
 bool mSecTimer::hasElapsedAndStarted (void)
 {
-	return _msTimerGetTimeRemaining() == 0 && _hasBeenStartedSecTimer ();
+	return _msTimerGetTimeRemaining() == 0 && _hasBeenStartedmSecTimer ();
 }
 
 bool mSecTimer::hasElapsedOrNotBeenStarted (void)
