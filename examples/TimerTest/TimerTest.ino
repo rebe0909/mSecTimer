@@ -10,10 +10,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-bool timerElapsed = ms_timer.hasElapsedTimer();
-  if(timerElapsed)
-  {
-    //Do_something....
-    ms_timer.startTimer(1000); //Start Timer again....
-  }
+	bool timerElapsed = ms_timer.hasElapsedTimer();
+	if(timerElapsed)
+	{
+		//Do_something....
+		ms_timer.startTimer(1000); //Start Timer again....
+	}
 }
