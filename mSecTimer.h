@@ -7,7 +7,7 @@ class mSecTimer {
 
 public:
 		mSecTimer();
-		bool trueforSeconds (bool bedingung, int msek);
+		bool trueformSeconds (bool bedingung, int msek);
 		bool hasElapsedTimer (void);
 		bool hasElapsedOrNotBeenStarted (void);
 		bool hasElapsedAndStarted (void);
