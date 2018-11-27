@@ -1,0 +1,23 @@
+{
+  "name": "mSecTimer",
+  "keywords": "mSecond, timer, msecond, delay",
+  "description": "A simple Timer for Milli Second Delays",
+  "homepage": "https://github.com/rebe0909/mSecTimer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rebe0909/mSecTimer.git"
+  },
+  "version": "1.00.0",
+  "authors": {
+    "name": "Reinhard",
+    "url": "https://github.com/rebe0909/mSecTimer"
+  },
+  "exclude": [
+    "fuzzing",
+    "scripts",
+    "test",
+    "third-party"
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
