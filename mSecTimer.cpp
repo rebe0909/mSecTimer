@@ -49,7 +49,7 @@ unsigned long mSecTimer::_msTimerGetTimeRemaining(void)
 	if (!_timer.running) return 0;
 
 	unsigned long _current = millis();
-	if(_timer.interval == 0 || (_current - _timer.starttime_ms) > _timer.interval )
+	if(_timer.interval == 0 || (_current - _timer.starttime_ms) >= _timer.interval )
 	{
 		_timer.running = false;
 		return 0;
